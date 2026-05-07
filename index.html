@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Incrementality-First Paid Media for DTC | Zero Fluff Digital</title>
+  <meta name="description" content="Operator-led paid media for DTC brands. Geo holdouts, creative testing systems, and real incrementality measurement - not attribution guesswork. Book a call." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://zerofluff.digital/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://zerofluff.digital/" />
+  <meta property="og:title"       content="Incrementality-First Paid Media for DTC | Zero Fluff Digital" />
+  <meta property="og:description" content="Operator-led paid media for DTC brands. Geo holdouts, creative testing systems, and real incrementality measurement - not attribution guesswork." />
+  <meta property="og:image"       content="https://zerofluff.digital/og-image.jpg" />
+  <meta property="og:site_name"   content="Zero Fluff Digital" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="Incrementality-First Paid Media for DTC | Zero Fluff Digital" />
+  <meta name="twitter:description" content="Operator-led paid media for DTC brands. Geo holdouts, creative testing systems, real incrementality measurement." />
+  <meta name="twitter:image"       content="https://zerofluff.digital/og-image.jpg" />
+
+  <!-- Alternate / hreflang -->
+  <link rel="alternate" hreflang="en" href="https://zerofluff.digital/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Structured data — Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Zero Fluff Digital",
+    "url": "https://zerofluff.digital",
+    "logo": "https://zerofluff.digital/logo.png",
+    "email": "hello@zerofluff.digital",
+    "description": "Incrementality-first paid media agency for DTC brands. Geo holdouts, creative testing systems, and real measurement — not attribution guesswork.",
+    "areaServed": "Worldwide",
+    "knowsAbout": ["Paid Media", "Incrementality Testing", "Creative Strategy", "Media Mix Modelling", "DTC Growth", "nCAC Optimisation"],
+    "parentOrganization": { "@type": "Organization", "name": "MTA Group" },
+    "sameAs": ["https://www.linkedin.com/company/zerofluff-digital"]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="scrollProgress"></div>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="/" class="nav-logo">zerofluff<span class="nav-logo-dot">.digital</span></a>
+    <div class="nav-links">
+      <a href="#how-we-work">How we work</a>
+      <a href="#why-us">Why us</a>
+      <a href="#cta">Contact</a>
+    </div>
+    <a href="#cta" class="btn btn-nav">Book a call</a>
+    <button class="nav-burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#how-we-work" class="mobile-link">How we work</a>
+    <a href="#why-us" class="mobile-link">Why us</a>
+    <a href="#cta" class="mobile-link">Contact</a>
+    <a href="#cta" class="mobile-link mobile-cta">Book a call</a>
+  </div>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <!-- Large background spinning ring -->
+    <div class="hero-ring" aria-hidden="true">
+      <svg viewBox="0 0 600 600" class="hero-ring-svg hero-ring-outer">
+        <path id="hero-ring-path-outer" d="M 300,300 m -255,0 a 255,255 0 1,1 510,0 a 255,255 0 1,1 -510,0" fill="none"/>
+        <text><textPath href="#hero-ring-path-outer" startOffset="0%" textLength="1602" lengthAdjust="spacing">ZERO FLUFF · FULL ACCOUNTABILITY · RESULTS ONLY · NO EXCUSES · PROFIT OVER ROAS · NO VANITY METRICS · </textPath></text>
+      </svg>
+      <svg viewBox="0 0 600 600" class="hero-ring-svg hero-ring-inner">
+        <path id="hero-ring-path-inner" d="M 300,300 m -185,0 a 185,185 0 1,1 370,0 a 185,185 0 1,1 -370,0" fill="none"/>
+        <text><textPath href="#hero-ring-path-inner" startOffset="0%" textLength="1162" lengthAdjust="spacing">ZFD · ZERO FLUFF DIGITAL · ZFD · ZERO FLUFF DIGITAL · ZFD · ZERO FLUFF DIGITAL · </textPath></text>
+      </svg>
+      <div class="hero-ring-center">ZFD<span>.</span></div>
+    </div>
+
+    <div class="hero-inner container">
+      <div class="hero-top-row">
+        <div class="hero-label">
+          <span class="label-dot"></span>
+          Paid Media Agency · DTC Growth
+        </div>
+      </div>
+
+      <h1 class="hero-headline">
+        <span class="word-reveal">Your attribution</span>
+        <span class="word-reveal italic hero-highlight">is fiction.</span>
+        <span class="word-reveal">Your P&amp;L knows it.</span>
+      </h1>
+
+      <div class="hero-bottom">
+        <p class="hero-sub">
+          Incrementality measurement that separates real lift from attribution noise. Creative systems that generate consistent winners. Senior operators who run every account themselves.
+        </p>
+        <div class="hero-ctas">
+          <a href="#cta" class="btn btn-primary magnetic">Start the intervention</a>
+          <a href="#proof" class="btn btn-ghost magnetic">See how we work</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-indicator-text">See more</span>
+      <div class="scroll-indicator-line"><div class="scroll-indicator-dot"></div></div>
+    </div>
+  </section>
+
+  <!-- ===================== TRUTH / VERSUS ===================== -->
+  <section class="section-light truth-section" id="truth">
+    <div class="container">
+      <div class="section-label">The uncomfortable truth</div>
+      <h2 class="section-headline">
+        Most of your ad spend doesn't drive<br />what it claims to drive.
+      </h2>
+
+      <div class="versus-grid">
+        <div class="versus-col versus-them">
+          <div class="versus-header">
+            <span class="versus-badge versus-badge-bad">What they tell you</span>
+          </div>
+          <div class="versus-item">
+            <span class="versus-icon">✕</span>
+            <span class="strike">10x ROAS on brand campaigns</span>
+          </div>
+          <div class="versus-item">
+            <span class="versus-icon">✕</span>
+            <span class="strike">Attribution model proves it's working</span>
+          </div>
+          <div class="versus-item">
+            <span class="versus-icon">✕</span>
+            <span class="strike">Creatives are performing fine</span>
+          </div>
+          <div class="versus-item">
+            <span class="versus-icon">✕</span>
+            <span class="strike">All channels are positive ROAS</span>
+          </div>
+          <div class="versus-item">
+            <span class="versus-icon">✕</span>
+            <span class="strike">Retargeting is your best ROI</span>
+          </div>
+        </div>
+        <div class="versus-col versus-us">
+          <div class="versus-header">
+            <span class="versus-badge versus-badge-good">What we find</span>
+          </div>
+          <div class="versus-item">
+            <span class="versus-icon versus-check">✓</span>
+            <span>Brand campaigns take credit for organic revenue</span>
+          </div>
+          <div class="versus-item">
+            <span class="versus-icon versus-check">✓</span>
+            <span>Attribution rewards the last click, not the cause</span>
+          </div>
+          <div class="versus-item">
+            <span class="versus-icon versus-check">✓</span>
+            <span>Your top creative hasn't been properly tested in months</span>
+          </div>
+          <div class="versus-item">
+            <span class="versus-icon versus-check">✓</span>
+            <span>3 of 4 channels have negative iROAS after holdout tests</span>
+          </div>
+          <div class="versus-item">
+            <span class="versus-icon versus-check">✓</span>
+            <span>Retargeting mostly converts people who'd buy anyway</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="truth-cta-row">
+        <p class="truth-cta-text">Sound familiar? It's not a strategy problem - it's a measurement and creative problem.</p>
+        <a href="#cta" class="btn btn-dark magnetic">Start the intervention</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HOW WE WORK ===================== -->
+  <section class="section-light how-section" id="how-we-work">
+    <div class="ghost-text ghost-text-light ghost-how" aria-hidden="true" data-parallax="18">SCALE</div>
+    <div class="container">
+      <div class="section-label">How we think</div>
+      <h2 class="section-headline">
+        Measure. Cut. Scale.<br /><em>In that order.</em>
+      </h2>
+      <div class="how-steps">
+        <div class="how-step">
+          <div class="how-step-num">01</div>
+          <div class="how-step-content">
+            <h3>Measure what actually works</h3>
+            <p>Geo holdouts, causal incrementality tests, and proper nCAC accounting - not attribution models that tell you what you want to hear. We build the measurement infrastructure first so every decision that follows is grounded in real signal, not reporting noise.</p>
+          </div>
+          <div class="how-step-tag">DIAGNOSE</div>
+        </div>
+        <div class="how-step">
+          <div class="how-step-num">02</div>
+          <div class="how-step-content">
+            <h3>Cut what doesn't</h3>
+            <p>Once we know what's driving real incremental revenue, everything else goes. Budget leaks, channels that look good on a dashboard but fail a holdout, agency markups - all of it. No politics, no hesitation.</p>
+          </div>
+          <div class="how-step-tag">OPERATE</div>
+        </div>
+        <div class="how-step">
+          <div class="how-step-num">03</div>
+          <div class="how-step-content">
+            <h3>Scale only what's proven</h3>
+            <p>We don't scale gut feeling. We scale what's passed a test - and we build the creative infrastructure to keep generating winners: concept hierarchies, rapid testing frameworks, organic-to-paid pipelines. The right ideas get budget before the market moves.</p>
+          </div>
+          <div class="how-step-tag">GROW</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MANIFESTO STRIP ===================== -->
+  <div class="manifesto-strip" role="complementary" aria-label="Our principles">
+    <div class="container manifesto-inner">
+      <div class="manifesto-lines">
+        <div class="manifesto-line"><span class="manifesto-slash">/</span><span>Measurement that survives a geo holdout.</span></div>
+        <div class="manifesto-line"><span class="manifesto-slash">/</span><span>Creative systems, not one-hit wonders.</span></div>
+        <div class="manifesto-line"><span class="manifesto-slash">/</span><span>KPIs your CFO can take to the board.</span></div>
+      </div>
+      <a href="#cta" class="btn btn-callout magnetic">Book a call</a>
+    </div>
+  </div>
+
+  <!-- ===================== OPERATOR ===================== -->
+  <section class="section-dark operator-section" id="why-us">
+    <div class="ghost-text ghost-operator" aria-hidden="true" data-parallax="15">NO FLUFF</div>
+    <div class="container">
+      <div class="operator-inner">
+        <div class="operator-left">
+          <div class="section-label light">Why us</div>
+          <h2 class="section-headline light">
+            We think like the P&amp;L owner, not the agency account team.
+          </h2>
+          <p class="body-text light">
+            Most agencies optimise for their own metrics. We optimise for nCAC, iROAS and contribution margin - the numbers that matter in a board meeting, on an investor call, or when you're deciding where next quarter's budget goes.
+          </p>
+          <p class="body-text light">
+            Operators first, marketers second. We build measurement infrastructure, creative testing systems, and media frameworks that compound over time - not campaigns that reset every month.
+          </p>
+          <a href="#cta" class="btn btn-primary magnetic">Work with us</a>
+        </div>
+        <div class="operator-right">
+          <div class="operator-traits">
+            <div class="trait"><span class="trait-num">01</span><span>Incrementality-first. We don't trust attribution models.</span></div>
+            <div class="trait"><span class="trait-num">02</span><span>Decisions from geo holdouts, not opinion.</span></div>
+            <div class="trait"><span class="trait-num">03</span><span>nCAC and contribution margin, not vanity ROAS.</span></div>
+            <div class="trait"><span class="trait-num">04</span><span>Creative infrastructure built in - systems, not guesswork.</span></div>
+            <div class="trait"><span class="trait-num">05</span><span>Full platform access. No black boxes, no media markups.</span></div>
+            <div class="trait"><span class="trait-num">06</span><span>Senior operators only. No account managers, no handoffs.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY US ===================== -->
+  <section class="section-light why-section" id="proof">
+    <div class="container">
+      <div class="section-label">Why Zero Fluff Digital</div>
+      <h2 class="section-headline">
+        We build machines, not campaigns.<br /><em>Most agencies do the opposite.</em>
+      </h2>
+      <div class="why-grid">
+
+        <!-- 01: Incrementality -->
+        <div class="why-item">
+          <div class="why-visual">
+            <div class="wv-bars">
+              <div class="wv-bar wv-bar-muted" style="height:100%"><span>Attr.</span></div>
+              <div class="wv-bar wv-bar-red"   style="height:60%"><span>Incr.</span></div>
+            </div>
+            <div class="wv-label">The real gap</div>
+          </div>
+          <span class="why-index">01</span>
+          <h3>Incrementality over attribution</h3>
+          <p>Geo holdouts and causal experiments that measure real lift - not models that reward the last click. You'll know exactly what your spend actually caused, not what it claimed to.</p>
+        </div>
+
+        <!-- 02: Portfolio budgeting - animated reallocation -->
+        <div class="why-item">
+          <div class="why-visual">
+            <div class="wv-alloc wv-alloc-animated">
+              <div class="wv-alloc-row">
+                <span class="wv-alloc-label">Google Brand</span>
+                <div class="wv-alloc-bar"><div class="wv-alloc-fill" data-from="40" data-to="20" style="width:40%"></div></div>
+                <span class="wv-alloc-pct">40%</span>
+              </div>
+              <div class="wv-alloc-row">
+                <span class="wv-alloc-label">Meta Prosp.</span>
+                <div class="wv-alloc-bar"><div class="wv-alloc-fill wv-alloc-red" data-from="30" data-to="74" style="width:30%"></div></div>
+                <span class="wv-alloc-pct">30%</span>
+              </div>
+              <div class="wv-alloc-row">
+                <span class="wv-alloc-label">Linear TV</span>
+                <div class="wv-alloc-bar"><div class="wv-alloc-fill" data-from="30" data-to="6" style="width:30%"></div></div>
+                <span class="wv-alloc-pct">30%</span>
+              </div>
+            </div>
+            <div class="wv-label">Hover to see reallocation</div>
+          </div>
+          <span class="why-index">02</span>
+          <h3>Portfolio budgeting</h3>
+          <p>Channels treated like investments. We model marginal iROAS, find the efficient frontier, and move capital there - not where it's always been because no one asked the question.</p>
+        </div>
+
+        <!-- 03: Creative infrastructure -->
+        <div class="why-item why-creative">
+          <div class="why-visual">
+            <div class="wv-bars" style="align-items:flex-end;gap:6px">
+              <div class="wv-bar wv-bar-muted" style="height:30%"><span>A</span></div>
+              <div class="wv-bar wv-bar-muted" style="height:30%"><span>B</span></div>
+              <div class="wv-bar wv-bar-red"   style="height:30%"><span>C</span></div>
+              <div class="wv-bar wv-bar-muted" style="height:30%"><span>D</span></div>
+            </div>
+            <div class="wv-label">Find the winner. Scale it fast.</div>
+          </div>
+          <span class="why-index">03</span>
+          <h3>Creative infrastructure</h3>
+          <p>The last lever you actually control. We build concept hierarchies, rapid testing frameworks, and organic-to-paid pipelines - so you're always generating the next winner, not running on one hero ad.</p>
+        </div>
+
+        <!-- 04: Senior operators only -->
+        <div class="why-item">
+          <div class="why-visual">
+            <div class="wv-team">
+              <div class="wv-team-col wv-team-bad">
+                <span class="wv-team-label wv-team-label-bad">Other agency</span>
+                <div class="wv-team-node wv-node-muted">Account Mgr</div>
+                <div class="wv-team-arrow">↓</div>
+                <div class="wv-team-node wv-node-muted">Strategist</div>
+                <div class="wv-team-arrow">↓</div>
+                <div class="wv-team-node wv-node-muted">Junior PM</div>
+              </div>
+              <div class="wv-team-divider"></div>
+              <div class="wv-team-col wv-team-good">
+                <span class="wv-team-label wv-team-label-good">ZFD</span>
+                <div class="wv-team-node wv-node-good">Operator</div>
+              </div>
+            </div>
+            <div class="wv-label">Direct operator access</div>
+          </div>
+          <span class="why-index">04</span>
+          <h3>Senior operators only</h3>
+          <p>No account managers. No juniors. The person on the strategy call is the person running your campaigns - with full context and full accountability.</p>
+        </div>
+
+        <!-- 05: Single source of truth - animated convergence -->
+        <div class="why-item">
+          <div class="why-visual">
+            <div class="wv-converge">
+              <div class="wv-sources">
+                <div class="wv-source">GA4</div>
+                <div class="wv-source">Meta</div>
+                <div class="wv-source">Shopify</div>
+              </div>
+              <div class="wv-funnel-arrow">→</div>
+              <div class="wv-truth">ONE</div>
+            </div>
+            <div class="wv-label">Single source of truth</div>
+          </div>
+          <span class="why-index">05</span>
+          <h3>Single source of truth</h3>
+          <p>Every data source reconciled, every definition aligned. One view that answers "what changed and why" without the meeting about the meeting.</p>
+        </div>
+
+        <!-- 06: Full access -->
+        <div class="why-item">
+          <div class="why-visual">
+            <div class="wv-access">
+              <div class="wv-lock open">
+                <svg viewBox="0 0 32 38" fill="none">
+                  <rect x="4" y="16" width="24" height="22" rx="2" stroke="currentColor" stroke-width="2"/>
+                  <path d="M10 16V10a6 6 0 0 1 12 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <circle cx="16" cy="27" r="2.5" fill="currentColor"/>
+                </svg>
+              </div>
+              <div class="wv-access-info">
+                <span class="wv-access-title">Full transparency</span>
+                <span class="wv-access-line">All accounts - your ownership</span>
+                <span class="wv-access-line">All data - fully auditable</span>
+                <span class="wv-access-line">Zero media markups</span>
+              </div>
+            </div>
+          </div>
+          <span class="why-index">06</span>
+          <h3>Full access, zero markups</h3>
+          <p>You own the accounts. You own the data. Every dollar is auditable. We don't hide behind dashboards or inflate media costs.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CTA ===================== -->
+  <section class="section-dark cta-section" id="cta">
+    <div class="cta-ring" aria-hidden="true">
+      <svg viewBox="0 0 600 600" class="cta-ring-svg cta-ring-outer">
+        <path id="cta-ring-path-outer" d="M 300,300 m -255,0 a 255,255 0 1,1 510,0 a 255,255 0 1,1 -510,0" fill="none"/>
+        <text><textPath href="#cta-ring-path-outer" startOffset="0%" textLength="1602" lengthAdjust="spacing">ZERO FLUFF · FULL ACCOUNTABILITY · PROFIT OVER ROAS · NO EXCUSES · NO VANITY METRICS · RESULTS ONLY · </textPath></text>
+      </svg>
+      <svg viewBox="0 0 600 600" class="cta-ring-svg cta-ring-inner">
+        <path id="cta-ring-path-inner" d="M 300,300 m -185,0 a 185,185 0 1,1 370,0 a 185,185 0 1,1 -370,0" fill="none"/>
+        <text><textPath href="#cta-ring-path-inner" startOffset="0%" textLength="1162" lengthAdjust="spacing">ZFD · ZERO FLUFF DIGITAL · ZFD · ZERO FLUFF DIGITAL · ZFD · ZERO FLUFF DIGITAL · </textPath></text>
+      </svg>
+      <div class="cta-ring-center">ZFD<span>.</span></div>
+    </div>
+    <div class="container">
+      <div class="cta-inner">
+        <h2 class="cta-headline">
+          Done guessing what's<br /><em>actually</em> driving revenue?
+        </h2>
+        <p class="cta-sub">
+          No pitch. No deck. An honest conversation about your measurement setup, your creative testing velocity, and the KPIs your business actually cares about.
+        </p>
+        <a href="mailto:hello@zerofluff.digital" class="btn btn-primary btn-large magnetic">Start the intervention</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="/" class="nav-logo footer-logo">zerofluff<span class="nav-logo-dot">.digital</span></a>
+          <p>Operator-led paid media.<br />Incrementality, creative systems, real growth.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <span class="footer-col-title">Get in touch</span>
+            <a href="#cta">Book a call</a>
+            <a href="mailto:hello@zerofluff.digital">hello@zerofluff.digital</a>
+          </div>
+          <div class="footer-col">
+            <span class="footer-col-title">Follow</span>
+            <a href="https://www.linkedin.com/company/zerofluff-digital" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Zero Fluff Digital. All tactical advantages reserved. Part of <a href="https://mta.digital" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:none">MTA Group</a>.</span>
+        <div class="footer-legal">
+          <a href="/privacy-policy">Privacy Policy</a>
+          <a href="/terms-of-service">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- GSAP loaded at end of body — non-render-blocking -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
